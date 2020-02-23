@@ -17,14 +17,14 @@ https://godoc.org/github.com/gorilla/websocket
 
 
 ## Improvements
-- Websocket connections
+- Finish Websocket connection
 - Rendered chat.messages to client 
 - Deploy via Docker
 
 # How to use locally
 
-#### Cient 
-- cd server/client && yarn install && yarn start
+#### Client 
+- cd client && yarn install && yarn start
 
 #### Server 
 - in /server/ $ go run main.go 
