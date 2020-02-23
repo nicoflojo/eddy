@@ -1,5 +1,5 @@
-# eddy-travel-chat
-broken chat app using Golang, React, Docker
+# eddy
+unfinished chat app using Golang, React, Docker
 
 ## Notes
 Used to gain familiarity with Golang 
