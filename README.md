@@ -1,12 +1,13 @@
 # eddy
 unfinished chat app using Golang, React, Docker
 
-## Notes
-Used to gain familiarity with Golang 
+# How to use locally
 
-https://youtu.be/YS4e4q9oBaU
+#### Client 
+- cd client && yarn install && yarn start
 
-https://golang.org/doc/effective_go.html
+#### Server 
+- in /server/ $ go run main.go 
 
 ## Issues 
 Error: Firefox can’t establish a connection to the server at ws://localhost:8080/ws
@@ -21,10 +22,10 @@ https://godoc.org/github.com/gorilla/websocket
 - Rendered chat.messages to client 
 - Deploy via Docker
 
-# How to use locally
+## Notes
+Used to gain familiarity with Golang 
 
-#### Client 
-- cd client && yarn install && yarn start
+https://youtu.be/YS4e4q9oBaU
 
-#### Server 
-- in /server/ $ go run main.go 
+https://golang.org/doc/effective_go.html
+
